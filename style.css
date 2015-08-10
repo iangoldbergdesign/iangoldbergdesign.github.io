@@ -1,3 +1,7 @@
+.carat-container {
+  text-align: center;
+}
+
 .caret {
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
