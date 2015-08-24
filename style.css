@@ -39,8 +39,17 @@ hr {
   background-color: black;
 }
 
+#about-header {
+  display: inline-block;
+}
+
 #work-experiences {
   /*border-top: 1px solid black;*/
+  margin-bottom: 50px;
+}
+
+#work-experiences .images {
+  text-align: center;
 }
 
 #bottom-carat {
