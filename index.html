@@ -10,14 +10,16 @@
   <link rel="stylesheet" href="./style.css">
   <!-- BOOTSTRAP MOBILE REQS -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- LOAD CUSTOM SCRIPTS -->
+  <script src="./about_events.js"></script>
 </head>
 <body>
     <!-- Static navbar -->
       <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
           <div class="navbar-header">
+            <img id="brand" alt="Brand" src="...">
             <a class="navbar-brand" href="./index.html">Ian Goldberg</a>
-            <img alt="Brand" src="...">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
@@ -28,9 +30,9 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
               <li><a href="#about">ABOUT</a></li>
-              <li>&bull;</li>
+              <li class="bullet">&bull;</li>
               <li><a href="#work-experiences">WORK EXPERIENCES</a></li>
-              <li>&bull;</li>
+              <li class="bullet">&bull;</li>
               <li><a href="#contact">CONTACT</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -55,6 +57,50 @@
             <div class="col-md-12">
               <img src="" alt="About">
               <h2>ABOUT</h2>
+              <figure>
+                <div class="diagram">
+                  <div class="event-wrapper"></div>
+                  <div class="event-text-wrapper cubano">
+                    <div class="event-text-vc">
+                      <div class="event-text"></div>
+                    </div>
+                  </div>
+                  <div class="event-line-wrapper">
+                    <div class="event-line"></div>
+                  </div>
+                  <!-- <img class="guy" src="images/guy.png" height="109" width="65"/> -->
+                  <h4 class="roll-over cubano">(ROLL OVER CIRCLES)</h4>
+                </div>
+                <ul class="circles">
+                  <li class="yellow" data-event="born"></li>
+                  <li class="red" data-event="mtv"></li>
+                  <li class="red" data-event="rodale"></li>
+                  <li class="red" data-event="newspaper"></li>
+                  <li class="yellow" data-event="aiga"></li>
+                  <li class="orange" data-event="wash"></li>
+                  <li class="orange" data-event="columbia"></li>
+                  <li class="red" data-event="oxford"></li>
+                  <li class="yellow" data-event="sf"></li>
+                  <li class="red" data-event="yj"></li>
+                  <li class="yellow" data-event="running"></li>
+                  <li class="red" data-event="dial-house"></li>
+                  <li class="red" data-event="mig"></li>
+                </ul>
+                <figcaption class="legend">
+                  <ul class="cubano">
+                    <li class="work-experience">WORK EXPERIENCE</li>
+                    <li class="education">EDUCATION</li>
+                    <li class="personal-achievments">PERSONAL ACHIEVEMENTS</li>
+                  </ul>
+
+                  <div class="freelance-design cubano">
+                    <h4>FREELANCE DESIGN</h4>
+                    <p class="klinic">Lifelist, Fresh Prints T-Shirt Artist, Create Common Good, Lucky Bones Foundation</p>
+                    <a href="./Goldberg_Ian_Resume.pdf" target="_blank">(CLICK FOR FULL RESUME)</a>
+                  </div>
+                  <div class="clear"></div>
+                </figcaption>
+              </figure>
             </div> <!-- END COLUMN -->
           </div> <!-- END ROW -->
         </div> <!-- END CONTAINER -->

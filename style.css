@@ -1,3 +1,17 @@
+/* NAVBAR STYLES */
+
+.navbar {
+  /*background-color: rgb(24,78,106);*/
+}
+
+#brand {
+  margin-top: 15px;
+}
+
+.bullet {
+  margin-top: 15px;
+}
+
 .carat-container {
   text-align: center;
 }
@@ -6,4 +20,230 @@
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   border-top: 30px solid #000000;
+}
+
+hr {
+  background-color: black;
+}
+
+/* Circle Diagram */
+
+.about-me .diagram {
+  position: relative;
+}
+
+.about-me .diagram .ring {
+  border-radius: 50%;
+  position: absolute;
+  border: 1px solid #939597;
+}
+
+.about-me .circles li {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  list-style: none;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0 9px;
+}
+
+.about-me .circles {
+  display:inline-block;
+  border-bottom: 1px solid #939597;
+  padding-bottom: 0.5em;
+}
+
+.about-me .circles li:first-child {
+  margin-left: 0;
+}
+
+.about-me .circles li:last-child {
+  margin-right: 0;
+}
+
+.about-me .event-wrapper {
+  display: inline-block;
+}
+
+.about-me .ring.selected {
+  border-width: 3px;
+}
+
+.about-me .diagram[ data-color="red" ] .ring.selected {
+  border-color: #BE1E2D;
+}
+
+.about-me .diagram[ data-color="orange" ] .ring.selected {
+  border-color: #F05A28;
+}
+
+.about-me .diagram[ data-color="yellow" ] .ring.selected {
+  border-color: #F7931D;
+}
+
+.about-me .event-line-wrapper {
+  position: absolute;
+}
+
+.about-me .event-line {
+  height: 3px;
+  float:right;
+}
+
+.about-me .event-text-wrapper {
+  display: inline-block;
+  width: 195px;
+  padding-left: 20px
+}
+
+.about-me .event-text {
+  text-align: left;
+}
+
+.about-me .event-text .year {
+  font-size: 4.25em;
+  letter-spacing: 1px;
+  margin-bottom: -15px;
+  display: inline-block;
+}
+
+.about-me .event-text .description {
+  font-size: 1.25em;
+  display: inline-block;
+}
+
+.about-me .diagram[ data-color="red" ] .event-text .year {
+  color: #BE1E2D;
+}
+
+.about-me .diagram[ data-color="orange" ] .event-text .year {
+  color: #F05A28;
+}
+
+.about-me .diagram[ data-color="yellow" ] .event-text .year {
+  color: #F7931D;
+}
+
+.about-me .circles .red,
+.about-me .diagram[ data-color="red" ] .event-line {
+  background-color: #BE1E2D;
+}
+
+.about-me .circles .orange,
+.about-me .diagram[ data-color="orange" ] .event-line {
+  background-color: #F05A28;
+}
+
+.about-me .circles .yellow,
+.about-me .diagram[ data-color="yellow" ] .event-line {
+  background-color: #F7931D;
+}
+
+.about-me .guy {
+  position: absolute;
+}
+
+.about-me .roll-over {
+  position: absolute;
+  display: inline-block;
+  bottom: 10px;
+  left: 0px;
+  color: rgb(0, 99, 109);
+  letter-spacing: .85px;
+  font-size: .85em;
+}
+
+.about-me .headline-wrapper .description {
+  margin: 7px 0 0 25px;
+  line-height: 1.26em;
+  font-size: .95em;
+  width: 333px;
+}
+
+.about-me .legend {
+  position: relative;
+  width: 600px;
+  padding-top: .5em;
+}
+
+.about-me .legend ul {
+  width: 46%;
+  float: left;
+}
+
+.about-me .legend ul li {
+  padding-top: 14px;
+  font-size: 1.33em;
+  letter-spacing: 1px;
+  list-style-type: none;
+}
+
+.about-me .legend ul li:before {
+  content: '';
+  display: inline-block;
+  margin: 0 12px 1px 0;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+.about-me .legend ul .work-experience {
+  color: #BE1E2D;
+  font-size: 1em
+}
+
+.about-me .legend ul .work-experience:before {
+  background-color: #BE1E2D;
+}
+
+.about-me .legend ul .education {
+  color: #F05A28;
+  font-size: 1em
+
+}
+
+.about-me .legend ul .education:before {
+  background-color: #F05A28;
+}
+
+.about-me .legend ul .personal-achievments {
+  color: #F7931D;
+  font-size: 1em
+}
+
+.about-me .legend ul .personal-achievments:before {
+  background-color: #F7931D;
+}
+
+.about-me .legend .freelance-design {
+  padding-top: 8px;
+  width: 46%;
+  float: right;
+}
+
+.about-me .legend .freelance-design h4 {
+  color: #BE1E2D;
+  display: inline;
+  padding-right: .5em;
+  letter-spacing: 1px;
+  font-size: .85em
+}
+
+.about-me .legend .freelance-design p {
+  font-size: .9em;
+  display: inline;
+}
+
+.about-me .legend .freelance-design a {
+  margin-top: 10px;
+  color: #00636D;
+  text-decoration: none;
+  display: block;
+  letter-spacing: 1px;
+  font-size: .85em;
+}
+
+.about-me .legend .freelance-design a:hover {
+  color: #F7931D;
 }
