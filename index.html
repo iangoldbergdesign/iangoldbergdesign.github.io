@@ -10,7 +10,10 @@
   <link rel="stylesheet" href="./style.css">
   <!-- BOOTSTRAP MOBILE REQS -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- LOAD JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <!-- LOAD CUSTOM SCRIPTS -->
+  <script src="./home.js"></script>
   <script src="./about_events.js"></script>
 </head>
 <body>
@@ -18,7 +21,7 @@
       <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
           <div class="navbar-header">
-            <img id="brand" alt="Brand" src="...">
+            <img id="brand" alt="Brand" src="">
             <a class="navbar-brand" href="./index.html">Ian Goldberg</a>
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
@@ -52,7 +55,7 @@
         </div>
 
         <!-- START ABOUT SECTION -->
-        <div class="container section" id="about">
+        <div class="container section about-me" id="about">
           <div class="row">
             <div class="col-md-12">
               <div id="about-header">
@@ -60,7 +63,7 @@
                 <h2>ABOUT</h2>
               </div>
               <figure>
-                <div class="diagram">
+                <div class="diagram" style="height: 570px">
                   <div class="event-wrapper"></div>
                   <div class="event-text-wrapper cubano">
                     <div class="event-text-vc">
@@ -174,9 +177,6 @@
         <!-- END CONTACT SECTION -->
 
       <!-- </div> END MAIN BOOTSTRAP CONTANIER -->
-
-  <!-- LOAD GOOGLE JQUERY CDN -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
   <!-- LOAD BOOTSTRAP JS -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
