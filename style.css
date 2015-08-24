@@ -39,6 +39,10 @@ hr {
   background-color: black;
 }
 
+#figure {
+  text-align: center;
+}
+
 #about-header {
   display: inline-block;
 }
@@ -72,17 +76,17 @@ hr {
 
 /* Circle Diagram */
 
-.about-me .diagram {
+.about .diagram {
   position: relative;
 }
 
-.about-me .diagram .ring {
+.about .diagram .ring {
   border-radius: 50%;
   position: absolute;
   border: 1px solid #939597;
 }
 
-.about-me .circles li {
+.about .circles li {
   border-radius: 50%;
   width: 25px;
   height: 25px;
@@ -92,103 +96,103 @@ hr {
   margin: 0 9px;
 }
 
-.about-me .circles {
+.about .circles {
   display:inline-block;
   border-bottom: 1px solid #939597;
   padding-bottom: 0.5em;
 }
 
-.about-me .circles li:first-child {
+.about .circles li:first-child {
   margin-left: 0;
 }
 
-.about-me .circles li:last-child {
+.about .circles li:last-child {
   margin-right: 0;
 }
 
-.about-me .event-wrapper {
+.about .event-wrapper {
   display: inline-block;
 }
 
-.about-me .ring.selected {
+.about .ring.selected {
   border-width: 3px;
 }
 
-.about-me .diagram[ data-color="red" ] .ring.selected {
+.about .diagram[ data-color="red" ] .ring.selected {
   border-color: #BE1E2D;
 }
 
-.about-me .diagram[ data-color="orange" ] .ring.selected {
+.about .diagram[ data-color="orange" ] .ring.selected {
   border-color: #F05A28;
 }
 
-.about-me .diagram[ data-color="yellow" ] .ring.selected {
+.about .diagram[ data-color="yellow" ] .ring.selected {
   border-color: #F7931D;
 }
 
-.about-me .event-line-wrapper {
+.about .event-line-wrapper {
   position: absolute;
 }
 
-.about-me .event-line {
+.about .event-line {
   height: 3px;
   float:right;
 }
 
-.about-me .event-text-wrapper {
+.about .event-text-wrapper {
   display: inline-block;
   width: 195px;
   padding-left: 20px
 }
 
-.about-me .event-text {
+.about .event-text {
   text-align: left;
 }
 
-.about-me .event-text .year {
+.about .event-text .year {
   font-size: 4.25em;
   letter-spacing: 1px;
   margin-bottom: -15px;
   display: inline-block;
 }
 
-.about-me .event-text .description {
+.about .event-text .description {
   font-size: 1.25em;
   display: inline-block;
 }
 
-.about-me .diagram[ data-color="red" ] .event-text .year {
+.about .diagram[ data-color="red" ] .event-text .year {
   color: #BE1E2D;
 }
 
-.about-me .diagram[ data-color="orange" ] .event-text .year {
+.about .diagram[ data-color="orange" ] .event-text .year {
   color: #F05A28;
 }
 
-.about-me .diagram[ data-color="yellow" ] .event-text .year {
+.about .diagram[ data-color="yellow" ] .event-text .year {
   color: #F7931D;
 }
 
-.about-me .circles .red,
-.about-me .diagram[ data-color="red" ] .event-line {
+.about .circles .red,
+.about .diagram[ data-color="red" ] .event-line {
   background-color: #BE1E2D;
 }
 
-.about-me .circles .orange,
-.about-me .diagram[ data-color="orange" ] .event-line {
+.about .circles .orange,
+.about .diagram[ data-color="orange" ] .event-line {
   background-color: #F05A28;
 }
 
-.about-me .circles .yellow,
-.about-me .diagram[ data-color="yellow" ] .event-line {
+.about .circles .yellow,
+.about .diagram[ data-color="yellow" ] .event-line {
   background-color: #F7931D;
 }
 
-.about-me .guy {
+.about .guy {
   position: absolute;
 }
 
-.about-me .roll-over {
+.about .roll-over {
   position: absolute;
   display: inline-block;
   bottom: 10px;
@@ -198,32 +202,32 @@ hr {
   font-size: .85em;
 }
 
-.about-me .headline-wrapper .description {
+.about .headline-wrapper .description {
   margin: 7px 0 0 25px;
   line-height: 1.26em;
   font-size: .95em;
   width: 333px;
 }
 
-.about-me .legend {
+.about .legend {
   position: relative;
   width: 600px;
   padding-top: .5em;
 }
 
-.about-me .legend ul {
+.about .legend ul {
   width: 46%;
   float: left;
 }
 
-.about-me .legend ul li {
+.about .legend ul li {
   padding-top: 14px;
   font-size: 1.33em;
   letter-spacing: 1px;
   list-style-type: none;
 }
 
-.about-me .legend ul li:before {
+.about .legend ul li:before {
   content: '';
   display: inline-block;
   margin: 0 12px 1px 0;
@@ -232,41 +236,41 @@ hr {
   height: 16px;
 }
 
-.about-me .legend ul .work-experience {
+.about .legend ul .work-experience {
   color: #BE1E2D;
   font-size: 1em
 }
 
-.about-me .legend ul .work-experience:before {
+.about .legend ul .work-experience:before {
   background-color: #BE1E2D;
 }
 
-.about-me .legend ul .education {
+.about .legend ul .education {
   color: #F05A28;
   font-size: 1em
 
 }
 
-.about-me .legend ul .education:before {
+.about .legend ul .education:before {
   background-color: #F05A28;
 }
 
-.about-me .legend ul .personal-achievments {
+.about .legend ul .personal-achievments {
   color: #F7931D;
   font-size: 1em
 }
 
-.about-me .legend ul .personal-achievments:before {
+.about .legend ul .personal-achievments:before {
   background-color: #F7931D;
 }
 
-.about-me .legend .freelance-design {
+.about .legend .freelance-design {
   padding-top: 8px;
   width: 46%;
   float: right;
 }
 
-.about-me .legend .freelance-design h4 {
+.about .legend .freelance-design h4 {
   color: #BE1E2D;
   display: inline;
   padding-right: .5em;
@@ -274,12 +278,12 @@ hr {
   font-size: .85em
 }
 
-.about-me .legend .freelance-design p {
+.about .legend .freelance-design p {
   font-size: .9em;
   display: inline;
 }
 
-.about-me .legend .freelance-design a {
+.about .legend .freelance-design a {
   margin-top: 10px;
   color: #00636D;
   text-decoration: none;
@@ -288,6 +292,6 @@ hr {
   font-size: .85em;
 }
 
-.about-me .legend .freelance-design a:hover {
+.about .legend .freelance-design a:hover {
   color: #F7931D;
 }
