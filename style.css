@@ -1,7 +1,12 @@
 /* NAVBAR STYLES */
 
 .navbar {
-  /*background-color: rgb(24,78,106);*/
+  background-color: black;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border: none;
 }
 
 #brand {
@@ -10,6 +15,14 @@
 
 .bullet {
   margin-top: 15px;
+}
+
+.jumbotron {
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
 }
 
 .carat-container {
@@ -24,6 +37,28 @@
 
 hr {
   background-color: black;
+}
+
+#work-experiences {
+  /*border-top: 1px solid black;*/
+}
+
+#bottom-carat {
+  background-color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#bottom-carat b {
+  border-top: 30px solid #FFFFFF;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+
+#contact p {
+  text-align: center;
 }
 
 /* Circle Diagram */
