@@ -36,6 +36,10 @@
   margin-bottom: 0px;
 }
 
+#main-jumbotron {
+  color: #6ECFF5;
+}
+
 .carat-container {
   text-align: center;
 }
@@ -54,6 +58,10 @@ hr {
   text-align: center;
 }
 
+#about h2 {
+  color: #004E6A;
+}
+
 #about-header {
   display: inline-block;
 }
@@ -61,6 +69,7 @@ hr {
 #work-experiences {
   /*border-top: 1px solid black;*/
   margin-bottom: 50px;
+  color: #004E6A;
 }
 
 #work-experiences .images {
@@ -82,6 +91,14 @@ hr {
 
 #contact p {
   text-align: center;
+}
+
+#email {
+  color: #6ECFF5;
+}
+
+#contact a {
+  color: #FFF;
 }
 
 /* Circle Diagram */
