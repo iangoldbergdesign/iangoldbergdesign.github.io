@@ -14,7 +14,7 @@ body {
 }
 
 #brand {
-  margin-top: 15px;
+  margin-top: 7px;
 }
 
 .navbar-default .navbar-brand {
@@ -32,6 +32,10 @@ body {
 .bullet {
   margin-top: 15px;
   color: #6ECFF5;
+}
+
+#topleftnav {
+  float: left;
 }
 
 /* PAGE STYLES */
