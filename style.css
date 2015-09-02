@@ -1,5 +1,5 @@
-html {
-  font-family: Raleway;
+body {
+  font-family: 'Raleway', sans-serif;
 }
 
 /* NAVBAR STYLES */
@@ -23,6 +23,10 @@ html {
 
 .navbar-default .navbar-nav>li>a {
   color: #6ECFF5;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #FFF;
 }
 
 .bullet {
