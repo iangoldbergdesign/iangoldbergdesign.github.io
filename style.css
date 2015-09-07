@@ -80,6 +80,11 @@ hr {
   text-align: center;
 }
 
+.section-title h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #about h2 {
   color: #004E6A;
 }
@@ -94,8 +99,8 @@ hr {
 
 .section-title {
   display: inline-block;
-  /*vertical-align: middle;*/
-  margin-top: 5px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 #work-experiences {
