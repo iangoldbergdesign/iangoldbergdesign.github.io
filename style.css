@@ -13,12 +13,12 @@ body {
   border: none;
 }
 
-#brand {
-  margin-top: 7px;
-}
-
 .navbar-default .navbar-brand {
   color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #FFF;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -35,7 +35,17 @@ body {
 }
 
 #topleftnav {
-  float: left;
+  display: block;
+}
+
+#nav-image {
+  display: inline-block;
+}
+
+#nav-brand {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
 }
 
 /* PAGE STYLES */
