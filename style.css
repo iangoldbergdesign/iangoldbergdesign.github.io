@@ -74,8 +74,18 @@ hr {
   color: #004E6A;
 }
 
-#about-header {
+.section-header {
+  display: block;
+}
+
+.section-image {
   display: inline-block;
+}
+
+.section-title {
+  display: inline-block;
+  /*vertical-align: middle;*/
+  margin-top: 5px;
 }
 
 #work-experiences {
