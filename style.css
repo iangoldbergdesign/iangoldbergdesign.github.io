@@ -13,6 +13,10 @@ body {
   border: none;
 }
 
+.navbar-brand {
+  height:68px;
+}
+
 .navbar-default .navbar-brand {
   color: white;
 }
