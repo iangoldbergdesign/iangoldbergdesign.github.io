@@ -142,6 +142,14 @@ hr {
   color: #FFF;
 }
 
+.col-md-4 {
+  margin: 10px 0 10px 0;
+}
+
+.col-md-4 img {
+  width: 370px;
+}
+
 /* Circle Diagram */
 
 .about .diagram {
