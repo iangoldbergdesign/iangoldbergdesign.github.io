@@ -1,5 +1,73 @@
 body {
   font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+/* 
+
+Figure: center on page, connect lines to circles, add little guy
+
+Roll over text: 15px, 800 weight, dark blue;
+
+Work Experience etc.: 17px, 800 weight
+
+Other text: 15px, 300 weight;
+
+Date: 60px, 800 weight, need all caps font so #s are all on same line
+
+Regular type: 17px, 300 weight
+
+Make hover text appear on top of work example images: 90% opacity, red, text 20px 600 (bold), 300 (light) weight;
+
+MOBILE
+
+Remove name from navbar
+
+34px white type
+12px blue type
+headers 47px
+about text 17px
+email: 12px
+email address: 15px;
+email address: change color on hover to ;
+
+*/
+
+/* SKEW STYLES */
+
+.header {
+  z-index: 1;
+  position: relative;
+}
+
+.header .skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: black;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+    -webkit-backface-visibility: hidden;
+}
+
+.header .skew .header-inner {
+  max-width: 850px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#jumbotron-header {
+  font-size: 4.25em;
+  font-weight: 300;
 }
 
 /* NAVBAR STYLES */
@@ -21,11 +89,19 @@ body {
   color: white;
 }
 
+.navbar-default .navbar-nav>li#brand>a {
+  color: #FFF;
+  font-size: 1.3125em; /* 21 px / 16 px */
+  font-weight: 300;
+}
+
 .navbar-default .navbar-brand:hover {
   color: #FFF;
 }
 
 .navbar-default .navbar-nav>li>a {
+  font-size: 1em; /* 14 px / 16 px */
+  font-weight: 300;
   color: #6ECFF5;
 }
 
@@ -62,7 +138,9 @@ body {
   margin-bottom: 0px;
 }
 
-#main-jumbotron {
+#jumbotron-text {
+  font-size: 1.6875em;
+  font-weight: 300;
   color: #6ECFF5;
 }
 
@@ -87,6 +165,8 @@ hr {
 .section-title h2 {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 3.75em;
+  font-weight: 800;
 }
 
 #about h2 {
@@ -135,7 +215,15 @@ hr {
 }
 
 #email {
+  font-size: 1.6875em; /* 27px / 16px */
+  font-weight: 300;
   color: #6ECFF5;
+}
+
+#email-address {
+  font-size: 1.875em; /* 30px / 16px */
+  font-weight: 800;
+  color: #FFF;
 }
 
 #contact a {
@@ -148,6 +236,15 @@ hr {
 
 .col-md-4 img {
   width: 370px;
+}
+
+/* RESPONSIVE STYLES */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #about figure {
+    display: none;
+  }
 }
 
 /* Circle Diagram */
@@ -371,3 +468,5 @@ hr {
 .about .legend .freelance-design a:hover {
   color: #F7931D;
 }
+
+
