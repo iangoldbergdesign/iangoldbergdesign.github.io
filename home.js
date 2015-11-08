@@ -8,10 +8,10 @@
       additionalCircleDiameter = 30;
 
     var guyImages = {
-      'default' : 'images/guy.png',
-      'red' : 'images/guy_red.png',
-      'orange' : 'images/guy_orange.png',
-      'yellow' : 'images/guy_yellow.png'
+      'default' : 'icons/guyred.jpg',
+      'red' : 'icons/guyred.jpg',
+      'orange' : 'icons/guyorange.jpg',
+      'yellow' : 'icons/guyyellow.jpg'
     }
 
     return {
@@ -64,7 +64,7 @@
       _renderEvents : function( el, events ) {
         var len = this.order.length;
         $.each( this.order, $.proxy( function( idx, val ) {
-          
+
           if ( !this.events.hasOwnProperty( val ) ) {
             return;
           }
@@ -79,15 +79,10 @@
         this.wrapper.css({
           height: this.circleDiameter + 'px'
         })
-        
+
         // force the outside wrapper to be as wide as the widest circle
         this.diagram.css({
           width: this.circleDiameter + 'px'
-        })
-
-        // force the text box wrapper to be as tall as the diameter
-        this.textBoxWrapper.css({
-          height: this.circleDiameter + 'px'
         })
 
         // force the line wrapper to be the correct max-width
@@ -126,7 +121,7 @@
 
       _positionCircle : function( circle, idx, totalCircles ) {
         var offset = ( ( totalCircles - idx ) * additionalCircleDiameter ) / 2;
-        circle.css({ 
+        circle.css({
           top: offset + 'px',
           left: offset + 'px'
         });
@@ -181,8 +176,8 @@
 
       _renderLine : function( line, idx, totalCircles ) {
         // get the width and offset left of the line
-        var width = ( ( ( totalCircles - idx ) * additionalCircleDiameter ) / 2 ) - 5;
-        
+        var width = ( ( ( totalCircles - idx ) * additionalCircleDiameter ) / 2 );
+
         line.css({
           width : width + 'px'
         })
