@@ -40,11 +40,34 @@ email address: change color on hover to ;
   position: relative;
 }
 
+.footer {
+  z-index: 1;
+  position: relative;
+}
+
 .header .skew:before {
   content: '';
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -25px;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: black;
+  z-index: -1;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
+    -webkit-backface-visibility: hidden;
+}
+
+.footer .skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -25px;
   overflow: visible;
   width: 100%;
   height: 250px;
@@ -59,6 +82,13 @@ email address: change color on hover to ;
 }
 
 .header .skew .header-inner {
+  max-width: 850px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer .skew .header-inner {
   max-width: 850px;
   padding: 0 20px;
   margin-left: auto;
