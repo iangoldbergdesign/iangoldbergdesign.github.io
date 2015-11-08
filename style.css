@@ -238,6 +238,32 @@ hr {
   width: 370px;
 }
 
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.image:after {
+  content:'TEST';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(255,0,0,0.9);
+  opacity:0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s
+}
+
+.image:hover:after {
+  opacity: 1;
+}
+
 /* RESPONSIVE STYLES */
 
 /* Smartphones (portrait and landscape) ----------- */
