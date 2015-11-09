@@ -310,6 +310,12 @@ hr {
 
 /* RESPONSIVE STYLES */
 
+@media screen and (max-width: 767px) {
+  a.navbar-brand {
+    display: none;
+  }
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #about figure {
