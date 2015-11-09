@@ -326,6 +326,15 @@ hr {
   #resume {
     display: inherit;
   }
+
+  .section-image,
+  .section-title {
+    display: block;
+  }
+
+  .section-header {
+    text-align: center;
+  }
 }
 
 /* Smartphones (portrait and landscape) ----------- */
