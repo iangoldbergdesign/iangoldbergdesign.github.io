@@ -143,6 +143,14 @@ a.navbar-brand {
   color: #FFF;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #6ECFF5;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
 .bullet {
   margin-top: 15px;
   color: #6ECFF5;
