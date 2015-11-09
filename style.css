@@ -3,103 +3,6 @@ body {
   font-size: 16px;
 }
 
-/* 
-
-Figure: center on page, connect lines to circles, add little guy
-
-Roll over text: 15px, 800 weight, dark blue;
-
-Work Experience etc.: 17px, 800 weight
-
-Other text: 15px, 300 weight;
-
-Date: 60px, 800 weight, need all caps font so #s are all on same line
-
-Regular type: 17px, 300 weight
-
-Make hover text appear on top of work example images: 90% opacity, red, text 20px 600 (bold), 300 (light) weight;
-
-MOBILE
-
-Remove name from navbar
-
-34px white type
-12px blue type
-headers 47px
-about text 17px
-email: 12px
-email address: 15px;
-email address: change color on hover to ;
-
-*/
-
-/* SKEW STYLES */
-
-.header {
-  z-index: 1;
-  position: relative;
-}
-
-.footer {
-  z-index: 1;
-  position: relative;
-}
-
-.header .skew:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -25px;
-  overflow: visible;
-  width: 100%;
-  height: 250px;
-  background: #004E6A;
-  z-index: -1;
-  -webkit-transform: skewY(2deg);
-  -moz-transform: skewY(2deg);
-  -ms-transform: skewY(2deg);
-  -o-transform: skewY(2deg);
-  transform: skewY(2deg);
-    -webkit-backface-visibility: hidden;
-}
-
-.footer .skew:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: -25px;
-  overflow: visible;
-  width: 100%;
-  height: 250px;
-  background: #004E6A;
-  z-index: -1;
-  -webkit-transform: skewY(-2deg);
-  -moz-transform: skewY(-2deg);
-  -ms-transform: skewY(-2deg);
-  -o-transform: skewY(-2deg);
-  transform: skewY(-2deg);
-    -webkit-backface-visibility: hidden;
-}
-
-.header .skew .header-inner {
-  max-width: 850px;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.footer .skew .header-inner {
-  max-width: 850px;
-  padding: 0 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#jumbotron-header {
-  font-size: 4.25em;
-  font-weight: 300;
-}
-
 /* NAVBAR STYLES */
 
 .navbar {
@@ -170,7 +73,74 @@ a.navbar-brand {
   margin-left: 10px;
 }
 
-/* PAGE STYLES */
+/* SKEW STYLES */
+
+.header {
+  z-index: 1;
+  position: relative;
+}
+
+.header .skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -25px;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: #004E6A;
+  z-index: -1;
+  -webkit-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  transform: skewY(2deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.header .skew .header-inner {
+  max-width: 850px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  z-index: 1;
+  position: relative;
+}
+
+.footer .skew:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -25px;
+  overflow: visible;
+  width: 100%;
+  height: 250px;
+  background: #004E6A;
+  z-index: -1;
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.footer .skew .header-inner {
+  max-width: 850px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* HOMEPAGE STYLES */
+
+#jumbotron-header {
+  font-size: 4.25em;
+  font-weight: 300;
+}
 
 .jumbotron {
   background-color: #004E6A;
@@ -304,12 +274,28 @@ hr {
   opacity: 1;
 }
 
-/*#figure {
-  text-align: center;
-}*/
-
 #resume {
   display: none;
+}
+
+/* TEMPLATE STYLES */
+
+.red-text {
+  color: darkred;
+}
+
+#detail {
+  padding-bottom: 50px;
+}
+
+.template-section-image {
+  display: inline-block;
+}
+
+.template-section-text {
+  display: inline-block;
+  margin-left: 10px;
+  vertical-align: top;
 }
 
 /* RESPONSIVE STYLES */
@@ -325,6 +311,7 @@ hr {
 
   #resume {
     display: inherit;
+    font-size: 1.0625em; /* 17px / 16px */
   }
 
   .section-image,
@@ -335,14 +322,27 @@ hr {
   .section-header {
     text-align: center;
   }
-}
 
-/* Smartphones (portrait and landscape) ----------- */
-/*@media screen and (min-width : 320px) and (max-width : 480px) {
-  #about figure {
-    display: none;
+  #jumbotron-header {
+    font-size: 2.125em; /* 34px / 16px */
   }
-}*/
+
+  #jumbotron-text {
+    font-size: .75em; /* 12px / 16px */
+  }
+
+  .section-title h2 {
+    font-size: 2.9375em; /* 47px / 16px */
+  }
+
+  #email {
+    font-size: .75em; /* 12px / 16px */
+  }
+
+  #email-address {
+    font-size: .9375em; /*  15px / 16px */
+  }
+}
 
 /* Circle Diagram */
 
@@ -467,9 +467,10 @@ hr {
   display: inline-block;
   bottom: 10px;
   left: 0px;
-  color: rgb(0, 99, 109);
+  color: #004E6A;
   letter-spacing: .85px;
-  font-size: .85em;
+  font-size: .9375em; /* 15px / 16px */
+  font-weight: 800;
 }
 
 .about .headline-wrapper .description {
@@ -508,7 +509,8 @@ hr {
 
 .about .legend ul .work-experience {
   color: #BE1E2D;
-  font-size: 1em
+  font-size: 1.0625em; /* 17px / 16px */
+  font-weight: 800;
 }
 
 .about .legend ul .work-experience:before {
@@ -517,8 +519,8 @@ hr {
 
 .about .legend ul .education {
   color: #F05A28;
-  font-size: 1em
-
+  font-size: 1.0625em; /* 17px / 16px */
+  font-weight: 800;
 }
 
 .about .legend ul .education:before {
@@ -527,7 +529,8 @@ hr {
 
 .about .legend ul .personal-achievments {
   color: #F7931D;
-  font-size: 1em
+  font-size: 1.0625em; /* 17px / 16px */
+  font-weight: 800;
 }
 
 .about .legend ul .personal-achievments:before {
@@ -545,11 +548,13 @@ hr {
   display: inline;
   padding-right: .5em;
   letter-spacing: 1px;
-  font-size: .85em
+  font-size: 1.0625em; /* 17px / 16px */
+  font-weight: 300;
 }
 
 .about .legend .freelance-design p {
-  font-size: .9em;
+  font-size: .9375em; /* 15px / 16px */
+  font-weight: 300;
   display: inline;
 }
 
@@ -559,11 +564,16 @@ hr {
   text-decoration: none;
   display: block;
   letter-spacing: 1px;
-  font-size: .85em;
+  font-size: 1.0625em; /* 17px / 16px */
+  font-weight: 300;
 }
 
 .about .legend .freelance-design a:hover {
   color: #F7931D;
 }
 
-
+.about .year {
+  font-family: 'Lato';
+  font-size: 3.75em; /* 60px / 16px */
+  font-weight: 900;
+}
