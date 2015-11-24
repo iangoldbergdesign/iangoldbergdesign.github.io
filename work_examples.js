@@ -7,6 +7,7 @@ $(document).ready(function () {
   })
 
   el.mouseleave(function () {
+    console.log("bye");
     el.removeClass("red");
   })
 
