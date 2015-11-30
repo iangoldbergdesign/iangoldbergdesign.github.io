@@ -100,6 +100,10 @@ a.navbar-brand {
   margin-bottom: 0px;
 }
 
+.jumbotron hr {
+  border-color: #FFF;
+}
+
 #jumbotron-text {
   font-size: 1.6875em;
   font-weight: 300;
