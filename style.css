@@ -109,18 +109,20 @@ a.navbar-brand {
 
 #about {
   margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+figure { 
+  margin: 0 auto;
 }
 
 #work-experiences {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 
 hr {
-  background-color: black;
-}
-
-#figure {
-  text-align: center;
+  border-top: 1px solid #666;
 }
 
 .section-title h2 {
@@ -130,7 +132,7 @@ hr {
   font-weight: 800;
 }
 
-#about h2 {
+#about .section-title h2 {
   color: #004E6A;
 }
 
@@ -312,6 +314,14 @@ hr {
   #email-address {
     font-size: .9375em; /*  15px / 16px */
   }
+
+  .red-text {
+    font-size: 22px;
+  }
+
+  #detail p {
+    font-size: 26px;
+  }
 }
 
 /* Circle Diagram */
@@ -339,6 +349,8 @@ hr {
 .about .circles {
   display:inline-block;
   border-bottom: 1px solid #939597;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 0.5em;
 }
 
@@ -399,6 +411,7 @@ hr {
 .about .event-text .description {
   font-size: 1.25em;
   display: inline-block;
+  width: 200px;
 }
 
 .about .diagram[ data-color="red" ] .event-text .year {
@@ -432,15 +445,20 @@ hr {
   position: absolute;
 }
 
+.about .guy {
+  width: 62px;
+}
+
 .about .roll-over {
   position: absolute;
   display: inline-block;
-  bottom: 10px;
-  left: 0px;
+  bottom: 0;
+  left: 0;
   color: #004E6A;
   letter-spacing: .85px;
   font-size: .9375em; /* 15px / 16px */
   font-weight: 800;
+  padding-left: 100px;
 }
 
 .about .headline-wrapper .description {
@@ -454,11 +472,14 @@ hr {
   position: relative;
   width: 600px;
   padding-top: .5em;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .about .legend ul {
   width: 46%;
   float: left;
+  padding-left: 0;
 }
 
 .about .legend ul li {
@@ -481,6 +502,7 @@ hr {
   color: #BE1E2D;
   font-size: 1.0625em; /* 17px / 16px */
   font-weight: 800;
+  width: 300px;
 }
 
 .about .legend ul .work-experience:before {
@@ -501,6 +523,7 @@ hr {
   color: #F7931D;
   font-size: 1.0625em; /* 17px / 16px */
   font-weight: 800;
+  width: 300px;
 }
 
 .about .legend ul .personal-achievments:before {
@@ -514,12 +537,12 @@ hr {
 }
 
 .about .legend .freelance-design h4 {
-  color: #BE1E2D;
+  color: #004E6A;
   display: inline;
   padding-right: .5em;
   letter-spacing: 1px;
   font-size: 1.0625em; /* 17px / 16px */
-  font-weight: 300;
+  font-weight: 800;
 }
 
 .about .legend .freelance-design p {
@@ -530,12 +553,12 @@ hr {
 
 .about .legend .freelance-design a {
   margin-top: 10px;
-  color: #00636D;
+  color: #004E6A;
   text-decoration: none;
   display: block;
   letter-spacing: 1px;
   font-size: 1.0625em; /* 17px / 16px */
-  font-weight: 300;
+  font-weight: 800;
 }
 
 .about .legend .freelance-design a:hover {

@@ -77,7 +77,7 @@
 
         // force the entire wrapper to be tall enough to support the content
         this.wrapper.css({
-          height: this.circleDiameter + 'px'
+          height: (this.circleDiameter + 30) + 'px'
         })
 
         // force the outside wrapper to be as wide as the widest circle
