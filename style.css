@@ -12,6 +12,7 @@ body {
   margin:5% auto 0 auto; 
   background-size:cover;
   overflow:hidden;
+  display: inline-block;
 }
 
 #image-1 {
