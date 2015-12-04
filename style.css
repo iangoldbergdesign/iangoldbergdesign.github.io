@@ -6,7 +6,6 @@ body {
 .image {
   width: 267px;
   height: 175px;
-  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
   margin:5% auto 0 auto; 
