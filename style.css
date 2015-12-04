@@ -3,6 +3,86 @@ body {
   font-size: 16px;
 }
 
+.image {
+  width: 267px;
+  height: 175px;
+  box-shadow:inset 1px 1px 40px 0 rgba(0,0,0,.45);
+  border-bottom:2px solid #fff;
+  border-right:2px solid #fff;
+  margin:5% auto 0 auto; 
+  background-size:cover;
+  overflow:hidden;
+}
+
+#image-1 {
+  background:url(./img/YJ_thumb.jpg);
+}
+
+#image-2 {
+  background:url(./img/YJ_thumb.jpg);
+}
+
+#image-3 {
+  background:url(./img/Clipper_thumb.jpg);
+}
+
+#image-4 {
+  background:url(./img/Hayward_thumb.jpg);
+}
+
+#image-5 {
+  background:url(./img/Plae_thumb.jpg);
+}
+
+#image-6 {
+  background:url(./img/SNS_thumb.jpg);
+}
+
+#image-7 {
+  background:url(./img/logo_thumb.jpg);
+}
+
+#image-8 {
+  background:url(./img/YJ_thumb.jpg);
+}
+
+#image-9 {
+  background:url(./img/Oxford_thumb.jpg);
+}
+
+#image-10 {
+  background:url(./img/sparky_thumb.jpg);
+}
+
+#image-11 {
+  background:url(./img/YJ_thumb.jpg);
+}
+
+#image-12 {
+  background:url(./img/lifelist_thumb.jpg);
+}
+
+.overlay {
+  background:rgba(255,0,0,.75);
+  text-align:center;
+  width: 267px;
+  height: 175px;
+  /*padding:45px 0 66px 0;*/
+  opacity:0;
+  -webkit-transition: opacity .25s ease;
+  -moz-transition: opacity .25s ease;
+}
+
+.image:hover .overlay {
+  opacity:1;
+}
+
+.text {
+  font-weight: 300;
+  color: rgba(255,255,255,1);
+  font-size: 20px;
+}
+
 .container {
   padding: 0 10%;
 }
