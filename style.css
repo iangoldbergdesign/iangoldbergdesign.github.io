@@ -299,6 +299,17 @@ hr {
 
 /* TEMPLATE STYLES */
 
+.carousel {
+  width: 968px;
+  height: 477px;
+  margin: 0 auto;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+
 #detail h2 {
   font-size: 20pt;
   font-weight: 700;
