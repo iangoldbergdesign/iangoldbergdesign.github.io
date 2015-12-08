@@ -359,6 +359,10 @@ hr {
     display: none;
   }
 
+  .nav>li.bullet {
+    display: none;
+  }
+
   figure {
     display: none;
   }
