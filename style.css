@@ -138,6 +138,11 @@ a.navbar-brand {
   border: none;
 }
 
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #004E6A;
+}
+
 .bullet {
   margin-top: 15px;
   color: #6ECFF5;
