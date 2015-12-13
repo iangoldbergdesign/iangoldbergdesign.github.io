@@ -8,7 +8,8 @@ body {
   height: 175px;
   border-bottom:2px solid #fff;
   border-right:2px solid #fff;
-  margin:5% auto 0 auto; 
+  margin-left: 10px;
+  margin-right: 10px;
   background-size:cover;
   overflow:hidden;
   display: inline-block;
@@ -165,7 +166,7 @@ a.navbar-brand {
 /* HOMEPAGE STYLES */
 
 .pattern {
-  background-image: url(./img/strip.jpg);
+  background-image: url(./icons/strip.jpg);
   background-repeat: repeat-x;
   height: 23px;
 }
@@ -243,11 +244,19 @@ hr {
 }
 
 #image-container {
-  width: 94%;
-  padding-left: 3%;
-  padding-right: 3%;
+  padding-top: 50px;
   padding-bottom: 50px;
-  margin: 0 auto;
+  text-align: center;
+}
+
+.images:nth-child(2),
+.images:nth-child(3) {
+  padding-top: 10px;
+}
+
+
+.images {
+  margin-top: 20px;
 }
 
 .images img {
