@@ -63,11 +63,11 @@ body {
 }
 
 .overlay {
-  background:rgba(255,0,0,.75);
+  background:rgba(189,29,44,.75);
   text-align:center;
   width: 267px;
   height: 175px;
-  /*padding:45px 0 66px 0;*/
+  padding-top: 10px;
   opacity:0;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
@@ -171,7 +171,7 @@ a.navbar-brand {
 }
 
 #jumbotron-header {
-  font-size: 4.25em;
+  font-size: 5.1em;
   font-weight: 300;
   margin: 0;
   padding-bottom: 20px;
@@ -201,13 +201,12 @@ a.navbar-brand {
   padding-bottom: 50px;
 }
 
-figure { 
+figure {
   margin: 0 auto;
 }
 
 #work-experiences {
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 hr {
@@ -240,8 +239,6 @@ hr {
 }
 
 #work-experiences {
-  /*border-top: 1px solid black;*/
-  margin-bottom: 50px;
   color: #004E6A;
 }
 
@@ -292,9 +289,17 @@ hr {
   color: #FFF;
 }
 
+#contact a:hover {
+  text-decoration: none;
+}
+
 #resume {
   display: none;
   font-weight: 800;
+}
+
+#resume a {
+  color: #00ABEC;
 }
 
 #resume a:hover {
@@ -355,6 +360,7 @@ hr {
 /* RESPONSIVE STYLES */
 
 @media screen and (max-width: 767px) {
+
   a.navbar-brand {
     display: none;
   }
@@ -413,10 +419,15 @@ hr {
 
   #email {
     font-size: 1.2em;
+    padding-top: 100px;
   }
 
   #email-address {
     font-size: .9375em; /*  15px / 16px */
+  }
+
+  #email-link {
+    font-size: .75em;
   }
 
   .red-text {
