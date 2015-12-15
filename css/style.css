@@ -16,51 +16,51 @@ body {
 }
 
 #image-1 {
-  background:url(./img/YJ_thumb.jpg);
+  background:url(../images/YJ_thumb.jpg);
 }
 
 #image-2 {
-  background:url(./img/YJ_thumb.jpg);
+  background:url(../images/YJ_thumb.jpg);
 }
 
 #image-3 {
-  background:url(./img/Clipper_thumb.jpg);
+  background:url(../images/Clipper_thumb.jpg);
 }
 
 #image-4 {
-  background:url(./img/Hayward_thumb.jpg);
+  background:url(../images/Hayward_thumb.jpg);
 }
 
 #image-5 {
-  background:url(./img/Plae_thumb.jpg);
+  background:url(../images/Plae_thumb.jpg);
 }
 
 #image-6 {
-  background:url(./img/SNS_thumb.jpg);
+  background:url(../images/SNS_thumb.jpg);
 }
 
 #image-7 {
-  background:url(./img/logo_thumb.jpg);
+  background:url(../images/logo_thumb.jpg);
 }
 
 #image-8 {
-  background:url(./img/YJ_thumb.jpg);
+  background:url(../images/YJ_thumb.jpg);
 }
 
 #image-9 {
-  background:url(./img/Oxford_thumb.jpg);
+  background:url(../images/Oxford_thumb.jpg);
 }
 
 #image-10 {
-  background:url(./img/sparky_thumb.jpg);
+  background:url(../images/sparky_thumb.jpg);
 }
 
 #image-11 {
-  background:url(./img/YJ_thumb.jpg);
+  background:url(../images/YJ_thumb.jpg);
 }
 
 #image-12 {
-  background:url(./img/lifelist_thumb.jpg);
+  background:url(../images/lifelist_thumb.jpg);
 }
 
 .overlay {
@@ -166,7 +166,7 @@ a.navbar-brand {
 /* HOMEPAGE STYLES */
 
 .pattern {
-  background-image: url(./icons/strip.jpg);
+  background-image: url(../icons/strip.jpg);
   background-repeat: repeat-x;
   height: 23px;
 }

@@ -10,15 +10,20 @@
   <!-- LOAD FONTS -->
   <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800,200,300,500,600,100' rel='stylesheet' type='text/css'>
   <!-- LOAD CUSTOM STYLES -->
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- LOAD LIGHTBOX STYLES -->
+  <link href="css/lightbox.min.css" rel="stylesheet">
   <!-- BOOTSTRAP MOBILE REQS -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- LOAD JQUERY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- LOAD BOOTSTRAP JS -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <!-- LOAD CUSTOM SCRIPTS -->
-  <script src="./home.js"></script>
-  <script src="./about_events.js"></script>
-  <script src="./work_examples.js"></script>
+  <script src="./js/about_events.js"></script>
+  <script src="./js/work_examples.js"></script>
+  <!-- LOAD LIGHTBOX JS -->
+  <script src="./js/lightbox.min.js"></script>
 </head>
 <body>
     <!-- Static navbar -->
@@ -52,13 +57,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
           <div class="item active">
-            <img src="slideshowimage.jpg" alt="Slideshow Image Example">
+            <img src="images/slideshowimage.jpg" alt="Slideshow Image Example">
           </div>
           <div class="item">
-            <img src="slideshowimage.jpg" alt="Slideshow Image Example">
+            <img src="images/slideshowimage.jpg" alt="Slideshow Image Example">
           </div>
           <div class="item">
-            <img src="slideshowimage.jpg" alt="Slideshow Image Example">
+            <img src="images/slideshowimage.jpg" alt="Slideshow Image Example">
           </div>
           <div class="pattern"></div>
         </div>
@@ -84,17 +89,15 @@
             <p>Description text goes here...</p>
           </div> <!-- END COLUMN -->
         </div> <!-- END ROW -->
-        <div class="row">
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <img src="thumbnail.jpg" alt="Thumbnail">
-          </div>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <img src="thumbnail.jpg" alt="Thumbnail">
-          </div>
-          <div class="col-md-4 col-sm-12 col-xs-12">
-            <img src="thumbnail.jpg" alt="Thumbnail">
-          </div>
-        </div>
+        <ul>
+          <li>
+            <a href="./images/thumbnail.jpg" data-lightbox="image-1" data-title="caption-1"></a>
+          </li>
+            <a href="./images/thumbnail.jpg" data-lightbox="image-1" data-title="caption-1"></a>
+          </li>
+            <a href="./images/thumbnail.jpg" data-lightbox="image-1" data-title="caption-1"></a>
+          </li>
+        </ul>
       </div> <!-- END CONTAINER -->
       <!-- END ABOUT SECTION -->
 
@@ -122,8 +125,5 @@
         <!-- END CONTACT SECTION -->
 
       <!-- </div> END MAIN BOOTSTRAP CONTANIER -->
-
-  <!-- LOAD BOOTSTRAP JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
