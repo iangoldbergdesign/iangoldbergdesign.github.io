@@ -364,7 +364,23 @@ hr {
   vertical-align: top;
 }
 
+#template-thumbnail-container {
+  display: block;
+  text-align: center;
+}
+
+.template-thumbnail {
+  display: inline-block;
+  margin: 20px 20px;
+}
+
 /* RESPONSIVE STYLES */
+
+@media screen and (max-width: 991px) {
+  .template-thumbnail {
+    display: block;
+  }
+}
 
 @media screen and (max-width: 767px) {
 
