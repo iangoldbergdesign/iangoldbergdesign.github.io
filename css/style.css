@@ -376,6 +376,13 @@ hr {
 
 /* RESPONSIVE STYLES */
 
+@media screen and (max-width: 968px) {
+  .carousel {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .template-thumbnail {
     display: block;
