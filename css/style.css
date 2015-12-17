@@ -68,7 +68,7 @@ body {
   text-align:center;
   width: 267px;
   height: 175px;
-  padding-top: 10px;
+  padding-top: 30px;
   opacity:0;
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
@@ -244,7 +244,7 @@ hr {
 }
 
 #image-container {
-  padding-top: 50px;
+  padding-top: 35px;
   padding-bottom: 50px;
   text-align: center;
 }
@@ -428,7 +428,7 @@ hr {
 
   #email {
     font-size: 1.2em;
-    padding-top: 100px;
+    padding-top: 90px;
   }
 
   #email-address {
@@ -436,7 +436,7 @@ hr {
   }
 
   #email-link {
-    font-size: .75em;
+    font-size: .95em;
   }
 
   .red-text {
