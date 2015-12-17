@@ -6,13 +6,10 @@ body {
 .image {
   width: 267px;
   height: 175px;
-  border-bottom:2px solid #fff;
-  border-right:2px solid #fff;
-  margin-left: 10px;
-  margin-right: 10px;
   background-size:cover;
   overflow:hidden;
   display: inline-block;
+  margin: 10px 10px;
 }
 
 #image-1 {
@@ -75,7 +72,7 @@ body {
 }
 
 .image:hover .overlay {
-  opacity:1;
+  opacity: .4;
 }
 
 .text {
@@ -246,7 +243,7 @@ hr {
 #image-container {
   padding-top: 35px;
   padding-bottom: 50px;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .images:nth-child(2),
