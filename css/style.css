@@ -61,7 +61,7 @@ body {
 }
 
 .overlay {
-  background:rgba(189,29,44,.75);
+  background:rgba(189,29,44,.7);
   text-align:center;
   width: 267px;
   height: 175px;
@@ -72,7 +72,7 @@ body {
 }
 
 .image:hover .overlay {
-  opacity: .9;
+  opacity: 1;
 }
 
 .text {
