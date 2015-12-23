@@ -389,6 +389,15 @@ hr {
   margin-bottom: 0;
 }
 
+.template #email-link {
+  font-size: 1.1em;
+}
+
+.template .jumbotron {
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
 /* RESPONSIVE STYLES */
 
 @media screen and (max-width: 968px) {
