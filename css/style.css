@@ -328,15 +328,15 @@ hr {
 }
 
 #detail h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #BD1D2C;
+}
+
+.blue-text {
   font-size: 20pt;
   font-weight: 700;
   color: #004E6A;
-}
-
-.red-text {
-  font-size: 20pt;
-  font-weight: 700;
-  color: #BD1D2C;
 }
 
 #detail {
@@ -344,7 +344,7 @@ hr {
 }
 
 #detail p {
-  font-size: 22pt;
+  font-size: 24px;
   font-weight: 300;
   color: #004E6A;
 }
@@ -352,6 +352,11 @@ hr {
 #detail img {
   width: 183px;
   height: 148px;
+}
+
+#detail-text {
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .template-section-image {
@@ -366,11 +371,18 @@ hr {
 
 #template-thumbnail-container {
   display: block;
-  text-align: center;
 }
 
 .template-thumbnail {
   display: inline-block;
+}
+
+.template-thumbnail:nth-child(1) {
+  margin: 20px 20px 20px 0;
+}
+
+.template-thumbnail:nth-child(2),
+.template-thumbnail:nth-child(3) {
   margin: 20px 20px;
 }
 
@@ -387,10 +399,16 @@ hr {
   .template-thumbnail {
     display: block;
   }
+
+  .template-thumbnail:nth-child(1) {
+    margin: 20px 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-
+  #template-thumbnail-container {
+    text-align: center;
+  }
   a.navbar-brand {
     display: none;
   }
@@ -450,12 +468,18 @@ hr {
     font-size: .9375em; /*  15px / 16px */
   }
 
+  #template #contact #email-address {
+    display: inline-block;
+    text-align: top;
+  }
+
   #email-link {
     font-size: .95em;
   }
 
   .red-text {
-    font-size: 22px;
+    font-size: 20px;
+    color: #004E6A;
   }
 
   #detail p {
@@ -617,7 +641,7 @@ hr {
 
 .about .legend ul {
   width: 46%;
-  float: left;
+  float: right;
   padding-left: 0;
 }
 
@@ -672,7 +696,7 @@ hr {
 .about .legend .freelance-design {
   padding-top: 8px;
   width: 46%;
-  float: right;
+  float: left;
 }
 
 .about .legend .freelance-design h4 {

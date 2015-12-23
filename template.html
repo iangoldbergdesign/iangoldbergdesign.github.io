@@ -24,7 +24,7 @@
   <script src="./js/work_examples.js"></script>
   
 </head>
-<body>
+<body class="template">
     <!-- Static navbar -->
       <nav class="navbar navbar-default navbar-static-top">
         <div class="container">
@@ -80,11 +80,11 @@
 
       <!-- START DETAIL SECTION -->
       <div class="container section about" id="detail">
-        <div class="row">
+        <div class="row" id="detail-text">
           <div class="col-md-12">
-            <h2><span class="red-text">WORK EXPERIENCE:</span> Company</h2>
-            <h2><span class="red-text">CLIENT:</span> Client</h2>
-            <h2><span class="red-text">CHALLENGE</span></h2>
+            <h2><span class="blue-text">WORK EXPERIENCE:</span> Company</h2>
+            <h2><span class="blue-text">CLIENT:</span> Client</h2>
+            <h2><span class="blue-text">CHALLENGE</span></h2>
             <p>Description text goes here...</p>
           </div> <!-- END COLUMN -->
         </div> <!-- END ROW -->
@@ -117,14 +117,10 @@
               <div class="col-md-12">
                 <div class="section-header">
                   <div class="section-image">
-                    <img src="./icons/contact_contentpages.png" alt="Contact">
-                  </div>
-                  <div class="section-title">
-                    <h2>CONTACT</h2>
+                    <a href="./index.html"><img src="./icons/contact_contentpages.png" alt="Contact"></a>
+                    <p id="email-address"><a id="email-link" href="mailto:ian@iangoldbergdesign.com">IAN@IANGOLDBERGDESIGN.COM</a></p>
                   </div>
                 </div>
-                <p id="email">Email:</p>
-                <p id="email-address"><a id="email-link" href="mailto:ian@iangoldbergdesign.com">IAN@IANGOLDBERGDESIGN.COM</a></p>
               </div> <!-- END COLUMN -->
             </div> <!-- END ROW -->
           </div> <!-- END CONTAINER -->
