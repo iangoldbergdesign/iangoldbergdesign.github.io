@@ -92,7 +92,6 @@ body {
   color: white;
   margin-bottom: 0px;
   padding-top: 7px;
-  padding-bottom: 7px;
   border: none;
 }
 
@@ -334,7 +333,7 @@ hr {
 }
 
 .blue-text {
-  font-size: 20pt;
+  font-size: 20px;
   font-weight: 700;
   color: #004E6A;
 }
