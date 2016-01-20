@@ -13,7 +13,7 @@ body {
 }
 
 #image-1 {
-  background:url(../images/YJ_thumb.jpg);
+  background:url(../images/Clipper_thumb.jpg);
 }
 
 #image-2 {
@@ -21,31 +21,31 @@ body {
 }
 
 #image-3 {
-  background:url(../images/Clipper_thumb.jpg);
+  background:url(../images/Barstow_thumb.jpg);
 }
 
 #image-4 {
-  background:url(../images/Hayward_thumb.jpg);
+  background:url(../images/MCE_thumb.jpg);
 }
 
 #image-5 {
-  background:url(../images/Plae_thumb.jpg);
+  background:url(../images/Hayward_thumb.jpg);
 }
 
 #image-6 {
-  background:url(../images/SNS_thumb.jpg);
+  background:url(../images/Oxford_thumb.jpg);
 }
 
 #image-7 {
-  background:url(../images/logo_thumb.jpg);
+  background:url(../images/SNS_thumb.jpg);
 }
 
 #image-8 {
-  background:url(../images/YJ_thumb.jpg);
+  background:url(../images/lastchance_thumb.jpg);
 }
 
 #image-9 {
-  background:url(../images/Oxford_thumb.jpg);
+  background:url(../images/Fairfield_thumb.jpg);
 }
 
 #image-10 {
@@ -53,15 +53,19 @@ body {
 }
 
 #image-11 {
-  background:url(../images/YJ_thumb.jpg);
+  background:url(../images/SC_thumb.jpg);
 }
 
 #image-12 {
-  background:url(../images/lifelist_thumb.jpg);
+  background:url(../images/autism_thumb.jpg);
+}
+
+#image-13 {
+  background:url(../images/ChristmasCardthumb.jpg);
 }
 
 .overlay {
-  background:rgba(189,29,44,.7);
+  background:rgba(189,29,44,.85);
   text-align:center;
   width: 267px;
   height: 175px;
@@ -118,9 +122,10 @@ a.navbar-brand {
 }
 
 .navbar-default .navbar-nav>li>a {
-  font-size: 1em; /* 14 px / 16 px */
-  font-weight: 300;
+  font-size: .95em; /* 14 px / 16 px */
+  font-weight: 400;
   color: #6ECFF5;
+  letter-spacing:.5px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {

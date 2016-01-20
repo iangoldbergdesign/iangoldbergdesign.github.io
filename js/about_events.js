@@ -11,7 +11,7 @@
 
     "running2" : {
       "year" : "2013",
-      "description" : "In October 2013, I finished my first full-marathon in Chicago, IL."
+      "description" : "In October 2013, <br>I finished my first full-marathon in <br>Chicago, IL."
 
     },
 
