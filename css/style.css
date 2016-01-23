@@ -3,6 +3,25 @@ body {
   font-size: 16px;
 }
 
+.template h2 {
+  margin-bottom: 15px;
+}
+
+.template-detail-link {
+  font-size: 20px;
+  color: #00ABEC;
+  font-weight: 700;
+}
+
+.template-detail-link:hover {
+  color: #F7931D;
+  text-decoration: none;
+}
+
+#detail p {
+  margin-top: 15px;
+}
+
 .image {
   width: 267px;
   height: 175px;
@@ -307,10 +326,6 @@ hr {
 #resume {
   display: none;
   font-weight: 800;
-}
-
-#resume a {
-  color: #00ABEC;
 }
 
 #resume a:hover {
@@ -733,7 +748,7 @@ hr {
 
 .about .legend .freelance-design a {
   margin-top: 10px;
-  color: #004E6A;
+  color: #00ABEC;
   text-decoration: none;
   display: block;
   letter-spacing: 1px;
