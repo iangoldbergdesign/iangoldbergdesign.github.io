@@ -517,6 +517,12 @@ hr {
   #detail p {
     font-size: 26px;
   }
+
+  #image-14,
+  #image-15,
+  #image-16 {
+    display: none;
+  }
 }
 
 /* Circle Diagram */
