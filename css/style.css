@@ -425,19 +425,6 @@ hr {
 
 /* RESPONSIVE STYLES */
 
-@media screen and (min-width: 992px and max-width: 1161px) {
-  .image:nth-child(16) {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 870px and max-width: 991px) {
-  .image:nth-child(16),
-  #image-15.image {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 968px) {
   .carousel {
     width: 100%;
