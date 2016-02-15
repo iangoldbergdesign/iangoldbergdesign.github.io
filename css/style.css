@@ -510,7 +510,8 @@ hr {
     text-align: top;
   }
 
-  #email-link {
+  #email-link,
+  .template #email-link {
     font-size: .95em;
   }
 
