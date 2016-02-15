@@ -26,9 +26,9 @@ body {
   width: 267px;
   height: 175px;
   background-size:cover;
-  overflow:hidden;
-  display: inline-block;
+  float: left;
   margin: 10px 10px;
+  vertical-align: top;
 }
 
 #image-1 {
@@ -81,6 +81,11 @@ body {
 
 #image-13 {
   background:url(../images/ChristmasCardthumb.jpg);
+}
+
+.container.images {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .overlay {
@@ -529,12 +534,6 @@ hr {
 
   #detail p {
     font-size: 26px;
-  }
-
-  #image-14,
-  #image-15,
-  #image-16 {
-    display: none;
   }
 }
 
