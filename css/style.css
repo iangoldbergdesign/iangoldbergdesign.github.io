@@ -3,13 +3,32 @@ body {
   font-size: 16px;
 }
 
+.template h2 {
+  margin-bottom: 15px;
+}
+
+.template-detail-link {
+  font-size: 20px;
+  color: #00ABEC;
+  font-weight: 700;
+}
+
+.template-detail-link:hover {
+  color: #F7931D;
+  text-decoration: none;
+}
+
+#detail p {
+  margin-top: 15px;
+}
+
 .image {
   width: 267px;
   height: 175px;
   background-size:cover;
-  overflow:hidden;
   display: inline-block;
   margin: 10px 10px;
+  vertical-align: top;
 }
 
 #image-1 {
@@ -62,6 +81,11 @@ body {
 
 #image-13 {
   background:url(../images/ChristmasCardthumb.jpg);
+}
+
+.container.images {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .overlay {
@@ -307,10 +331,6 @@ hr {
 #resume {
   display: none;
   font-weight: 800;
-}
-
-#resume a {
-  color: #00ABEC;
 }
 
 #resume a:hover {
@@ -733,7 +753,7 @@ hr {
 
 .about .legend .freelance-design a {
   margin-top: 10px;
-  color: #004E6A;
+  color: #00ABEC;
   text-decoration: none;
   display: block;
   letter-spacing: 1px;

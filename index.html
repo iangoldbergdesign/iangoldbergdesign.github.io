@@ -1,237 +1,239 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1,width=320,height=device-height"/>
-
-  <title>Ian Goldberg Design</title>
-  <!-- LOAD BOOTSTRAP CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <!-- LOAD FONTS -->
-  <link href='https://fonts.googleapis.com/css?family=Raleway:400,700,800,200,300,500,600,100' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Lato:900' rel='stylesheet' type='text/css'>
-  <!-- LOAD CUSTOM STYLES -->
-  <link rel="stylesheet" href="./css/style.css">
-  <!-- BOOTSTRAP MOBILE REQS -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- LOAD JQUERY -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <!-- LOAD CUSTOM SCRIPTS -->
-  <script src="./js/home.js"></script>
-  <script src="./js/about_events.js"></script>
-  <script src="./js/work_examples.js"></script>
-</head>
-<body>
-    <!-- Static navbar -->
-      <nav class="navbar navbar-default navbar-static-top">
-        <div class="container">
-          <div class="navbar-header">
-            <img id="brand" class="navbar-brand" alt="Ian Goldberg" src="./icons/ig.png">
-            <a class="navbar-brand" href="./index.html">Ian Goldberg</a>
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">ABOUT</a></li>
-              <li class="bullet">&bull;</li>
-              <li><a href="#work-experiences">WORK EXPERIENCES</a></li>
-              <li class="bullet">&bull;</li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,width=320,height=device-height"/>
+    <title>Ian Goldberg Design</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800,200,300,500,600,100" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./js/home.js"></script>
+    <script src="./js/about_events.js"></script>
+    <script src="./js/work_examples.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <img id="brand" class="navbar-brand" alt="Ian Goldberg" src="./icons/ig.png">
+          <a class="navbar-brand" href="./index.html">Ian Goldberg</a>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-      </nav>
-
-      <div class="jumbotron header">
-        <div class="container">
-          <h1 id="jumbotron-header">I’m a <b>designer</b>, visual thinker, and storyteller.</h1>
-          <hr>
-          <p id="jumbotron-text">Based in San Francisco, with roots in New York. Through my work, I’m always striving to connect with and help others, providing approachable information, and telling stories that are intriguing and elicit excitement.</p>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li class="bullet">&bull;</li>
+            <li><a href="#work-experiences">WORK EXPERIENCES</a></li>
+            <li class="bullet">&bull;</li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
         </div>
       </div>
-
-      <div class="pattern"></div>
-
-        <!-- START ABOUT SECTION -->
-        <div class="container section about" id="about">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="section-header">
-                <div class="section-image">
-                  <img src="./icons/about.png" alt="About">
-                </div>
-                <div class="section-title">
-                  <h2>ABOUT</h2>
-                </div>
-                <p id="resume"><a href="./Goldberg_Ian_Resume.pdf" target="_blank">RESUME (PDF)</a></p>
-              </div>
-              <figure>
-                <div class="diagram">
-                  <div class="event-wrapper"></div>
-                  <div class="event-text-wrapper cubano">
-                    <div class="event-text-vc">
-                      <div class="event-text"></div>
-                    </div>
-                  </div>
-                  <div class="event-line-wrapper">
-                    <div class="event-line"></div>
-                  </div>
-                  <img class="guy" src="icons/guyred.jpg" height="109" width="65"/>
-                  <h4 class="roll-over cubano">(ROLL OVER CIRCLES)</h4>
-                </div>
-                <ul class="circles">
-                  <li class="yellow" data-event="born"></li>
-                  <li class="red" data-event="mtv"></li>
-                  <li class="red" data-event="rodale"></li>
-                  <li class="red" data-event="newspaper"></li>
-                  <li class="yellow" data-event="aiga"></li>
-                  <li class="orange" data-event="wash"></li>
-                  <li class="orange" data-event="columbia"></li>
-                  <li class="red" data-event="oxford"></li>
-                  <li class="yellow" data-event="sf"></li>
-                  <li class="red" data-event="yj"></li>
-                  <li class="yellow" data-event="running"></li>
-                  <li class="red" data-event="dial-house"></li>
-                  <li class="yellow" data-event="running2"></li>
-                  <li class="red" data-event="mig"></li>
-                </ul>
-                <figcaption class="legend">
-                  <div class="freelance-design cubano">
-                    <h4>FREELANCE DESIGN</h4>
-                    <p class="klinic">Lifelist, Fresh Prints T-Shirt Artist, Create Common Good, Lucky Bones Foundation</p>
-                    <a href="./Goldberg_Ian_Resume.pdf" target="_blank">RESUME (PDF)</a>
-                  </div>
-                  <ul class="cubano">
-                    <li class="work-experience">WORK EXPERIENCE</li>
-                    <li class="education">EDUCATION</li>
-                    <li class="personal-achievments">PERSONAL ACHIEVEMENTS</li>
-                  </ul>
-                  <div class="clear"></div>
-                </figcaption>
-              </figure>
-            </div> <!-- END COLUMN -->
-          </div> <!-- END ROW -->
-        </div> <!-- END CONTAINER -->
-        <!-- END ABOUT SECTION -->
-
+    </nav>
+    <div class="jumbotron header">
+      <div class="container">
+        <h1 id="jumbotron-header">I’m a <b>designer</b>, visual thinker, and storyteller.</h1>
         <hr>
-
-        <!-- START WORK EXPERIENCES SECTION -->
-        <div class="container section" id="work-experiences">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="section-header">
-                <div class="section-image">
-                  <img src="./icons/work.png" alt="Work Examples">
-                </div>
-                <div class="section-title">
-                  <h2>WORK EXAMPLES</h2>
+        <p id="jumbotron-text">Based in San Francisco, with roots in New York. Through my work, I’m always striving to connect with and help others, providing approachable information, and telling stories that are intriguing and elicit excitement.</p>
+      </div>
+    </div>
+    <div class="pattern"></div>
+    <div class="container section about" id="about">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header">
+            <div class="section-image">
+              <img src="./icons/about.png" alt="About">
+            </div>
+            <div class="section-title">
+              <h2>ABOUT</h2>
+            </div>
+            <p id="resume"><a href="./Goldberg_Ian_Resume.pdf" target="_blank">RESUME (PDF)</a></p>
+          </div>
+          <figure>
+            <div class="diagram">
+              <div class="event-wrapper"></div>
+              <div class="event-text-wrapper cubano">
+                <div class="event-text-vc">
+                  <div class="event-text"></div>
                 </div>
               </div>
-            </div> <!-- END COLUMN -->
-          </div> <!-- END ROW -->
-        </div> <!-- END CONTAINER -->
-        <div id="image-container">
+              <div class="event-line-wrapper">
+                <div class="event-line"></div>
+              </div>
+              <img class="guy" src="icons/guyred.jpg" height="109" width="65"/>
+              <h4 class="roll-over cubano">(ROLL OVER CIRCLES)</h4>
+            </div>
+            <ul class="circles">
+              <li class="yellow" data-event="born"></li>
+              <li class="red" data-event="mtv"></li>
+              <li class="red" data-event="rodale"></li>
+              <li class="red" data-event="newspaper"></li>
+              <li class="yellow" data-event="aiga"></li>
+              <li class="orange" data-event="wash"></li>
+              <li class="orange" data-event="columbia"></li>
+              <li class="red" data-event="oxford"></li>
+              <li class="yellow" data-event="sf"></li>
+              <li class="red" data-event="yj"></li>
+              <li class="yellow" data-event="running"></li>
+              <li class="red" data-event="dial-house"></li>
+              <li class="yellow" data-event="running2"></li>
+              <li class="red" data-event="mig"></li>
+            </ul>
+            <figcaption class="legend">
+              <div class="freelance-design cubano">
+                <h4>FREELANCE DESIGN</h4>
+                <p class="klinic">Lifelist, Fresh Prints T-Shirt Artist, Create Common Good, Lucky Bones Foundation</p>
+                <a href="./Goldberg_Ian_Resume.pdf" target="_blank">RESUME (PDF)</a>
+              </div>
+              <ul class="cubano">
+                <li class="work-experience">WORK EXPERIENCE</li>
+                <li class="education">EDUCATION</li>
+                <li class="personal-achievments">PERSONAL ACHIEVEMENTS</li>
+              </ul>
+              <div class="clear"></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container section" id="work-experiences">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header">
+            <div class="section-image">
+              <img src="./icons/work.png" alt="Work Examples">
+            </div>
+            <div class="section-title">
+              <h2>WORK EXAMPLES</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container images">
+      <div id="image-container">
+        <a href="./Clipper.html">
           <div class="image" id="image-1">
             <div class="overlay">
               <span class="text"><b>Clipper Card</b><br>East Bay Campaign</span>
             </div>
           </div>
+        </a>
+        <a href="./YogaJournal.html">
           <div class="image" id="image-2">
             <div class="overlay">
               <span class="text"><b>Yoga Journal <br>Magazine</b><br>Editorial Layout</span>
             </div>
           </div>
+        </a>
+        <a href="./Barstow.html">
           <div class="image" id="image-3">
             <div class="overlay">
               <span class="text"><b>City of Barstow</b><br>Website</span>
             </div>
           </div>
+        </a>
+        <a href="./MCE.html">
           <div class="image" id="image-4">
             <div class="overlay">
               <span class="text"><b>Marin Clean Energy</b><br>Digital Ads</span>
             </div>
           </div>
+        </a>
+        <a href="./Hayward.html">
           <div class="image" id="image-5">
             <div class="overlay">
               <span class="text"><b>Hayward Water Pollution Control Facility</b><br>Brochure</span>
             </div>
           </div>
+        </a>
+        <a href="./Oxford.html">
           <div class="image" id="image-6">
             <div class="overlay">
               <span class="text"><b>Oxford University Press</b><br>Book Jackets</span>
             </div>
           </div>
+        </a>
+        <a href="./SNS.html">
           <div class="image" id="image-7">
             <div class="overlay">
               <span class="text"><b>Southern Nevada Strong</b><br>Pamphlet</span>
             </div>
           </div>
+        </a>
+        <a href="./LastChance.html">
           <div class="image" id="image-8">
             <div class="overlay">
               <span class="text"><b>Caltrans <br> Last Chance Grade</b><br>Website</span>
             </div>
           </div>
+        </a>
+        <a href="./Fairfield.html">
           <div class="image" id="image-9">
             <div class="overlay">
               <span class="text"><b>City of Fairfield</b><br>Logo</span>
             </div>
           </div>
+        </a>
+        <a href="./Sparky.html">
           <div class="image" id="image-10">
             <div class="overlay">
               <span class="text"><b>Sparky: The Life and<br>Times of Charles Schulz</b><br>Book Layout</span>
             </div>
           </div>
+        </a>
+        <a href="./StevensCreek.html">
           <div class="image" id="image-11">
             <div class="overlay">
               <span class="text"><b>Stevens Creek</b></br>Logo</span>
             </div>
           </div>
+        </a>
+        <a href="./Autism.html">
           <div class="image" id="image-12">
             <div class="overlay">
               <span class="text"><b>Autism in the Classroom</b><br>Book Layout</span>
             </div>
           </div>
-         <div class="image" id="image-13">
+        </a>
+        <!-- <a href="./Cards.html">
+          <div class="image" id="image-13">
             <div class="overlay">
               <span class="text"><b>Holiday Cards</b></span>
             </div>
           </div>
+        </a> -->
+      </div>
+    </div>
+    <div class="pattern"></div>
+    <div class="jumbotron footer">
+      <div class="container section" id="contact">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-header">
+              <div class="section-image">
+                <img src="./icons/contact.png" alt="Contact">
+              </div>
+              <div class="section-title">
+                <h2>CONTACT</h2>
+              </div>
+            </div>
+            <p id="email">Email:</p>
+            <p id="email-address"><a id="email-link" href="mailto:ian@iangoldbergdesign.com">IAN@IANGOLDBERGDESIGN.COM</a></p>
+          </div>
         </div>
-        <!-- END WORK EXPERIENCES SECTION -->
-
-        <div class="pattern"></div>
-
-        <!-- START CONTACT SECTION -->
-        <div class="jumbotron footer">
-          <div class="container section" id="contact">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="section-header">
-                  <div class="section-image">
-                    <img src="./icons/contact.png" alt="Contact">
-                  </div>
-                  <div class="section-title">
-                    <h2>CONTACT</h2>
-                  </div>
-                </div>
-                <p id="email">Email:</p>
-                <p id="email-address"><a id="email-link" href="mailto:ian@iangoldbergdesign.com">IAN@IANGOLDBERGDESIGN.COM</a></p>
-              </div> <!-- END COLUMN -->
-            </div> <!-- END ROW -->
-          </div> <!-- END CONTAINER -->
-        </div>
-        <!-- END CONTACT SECTION -->
-
-      <!-- </div> END MAIN BOOTSTRAP CONTANIER -->
-
-  <!-- LOAD BOOTSTRAP JS -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-</body>
+      </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
 </html>
