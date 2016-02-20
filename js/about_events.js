@@ -3,6 +3,12 @@
 
   global.aboutEvents = {
 
+    "ga" : {
+      "year" : "2016",
+      "description" : "General Assembly, Part-time </br><strong>User-Experience Course</strong>, January 2016-March 2016"
+
+    },
+
     "mig" : {
       "year" : "2013",
       "description" : "MIG, Berkeley, CA<br/><strong>Graphic Designer</strong>, October 2013-Present<br/>"

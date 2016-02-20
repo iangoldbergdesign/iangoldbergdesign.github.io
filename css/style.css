@@ -737,16 +737,17 @@ hr {
 .about .legend .freelance-design h4 {
   color: #004E6A;
   display: inline;
-  padding-right: .5em;
+  padding-right: .2em;
   letter-spacing: 1px;
   font-size: 1.0625em; /* 17px / 16px */
   font-weight: 800;
 }
 
 .about .legend .freelance-design p {
-  font-size: .9375em; /* 15px / 16px */
+  font-size: .95em; /* 15px / 16px */
   font-weight: 300;
   display: inline;
+  line-height: 1.4;
 }
 
 .about .legend .freelance-design a {
