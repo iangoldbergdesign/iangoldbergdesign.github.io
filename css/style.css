@@ -364,9 +364,10 @@ hr {
 }
 
 #detail p {
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 300;
   color: #004E6A;
+  line-height: 1.6;
 }
 
 #detail img {
@@ -517,7 +518,7 @@ hr {
   }
 
   #detail p {
-    font-size: 26px;
+    font-size: 25px;
   }
 }
 
