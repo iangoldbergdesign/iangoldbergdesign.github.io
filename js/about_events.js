@@ -17,7 +17,7 @@
 
     "running2" : {
       "year" : "2013",
-      "description" : "In October 2013, <br>I finished my first full-marathon in <br>Chicago, IL."
+      "description" : "In October 2013, <br>I finished my first <br>full-marathon in <br>Chicago, IL."
 
     },
 
@@ -53,19 +53,19 @@
 
     "columbia" : {
       "year" : "2009",
-      "description" : "Columbia University,<br/>Graduate School of Journalism,<br/>Columbia Publishing Course,<br/>June-July 2009 <br/>Six-week intensive course on all aspects of book and magazine"
+      "description" : "Columbia University,<br/>Graduate School <br>of Journalism,<br/>Columbia <br><b>Publishing Course</b>,<br/>June-July 2009 <br/>Six-week intensive course on all <br>aspects of book<br> and magazine"
 
     },
 
     "wash" : {
       "year" : "2009",
-      "description" : "Washington University </br>in St. Louis</br>Sam Fox School of Design & Visual Arts-BFA, May 2009</br>Communication Design Major, Architecture Minor"
+      "description" : "Washington University </br>in St. Louis</br>Sam Fox School of Design & Visual Arts, BFA, May 2009</br><b>Communication Design Major</b>, <b>Architecture Minor</b>"
 
     },
 
     "aiga" : {
       "year" : "2009",
-      "description" : "AIGA 14 Show, St. Louis, MO, Student Merit Award, April 2009"
+      "description" : "AIGA 14 Show, St. Louis, MO, <b>Student Merit Award</b>, <br>April 2009"
 
     },
 

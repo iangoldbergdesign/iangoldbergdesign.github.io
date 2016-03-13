@@ -82,6 +82,12 @@ body {
 #image-13 {
   background:url(../images/ChristmasCardthumb.jpg);
 }
+#image-14 {
+  background:url(../images/DH_thumb.jpg);
+}
+#image-15 {
+  background:url(../images/SolanoMobility_thumb.jpg);
+}
 
 .container.images {
   padding-left: 0;
@@ -267,7 +273,7 @@ hr {
 #image-container {
   padding-top: 35px;
   padding-bottom: 50px;
-  text-align: center;
+  text-align: left;
   max-width: 1450px;
 }
 
@@ -429,10 +435,18 @@ hr {
   }
 }
 
+
 @media screen and (max-width: 991px) {
   .template-thumbnail {
     display: block;
   }
+  
+  #image-container {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  text-align: center;
+  max-width: 1450px;
+}
 
   .template-thumbnail:nth-child(1) {
     margin: 20px 20px;
@@ -440,6 +454,13 @@ hr {
 }
 
 @media screen and (max-width: 767px) {
+#image-container {
+  padding-top: 35px;
+  padding-bottom: 50px;
+  text-align: center;
+  max-width: 1450px;
+}
+
   #template-thumbnail-container {
     text-align: center;
   }
