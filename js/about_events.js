@@ -23,13 +23,13 @@
 
     "dial-house" : {
       "year" : "2012",
-      "description" : "Dial House, San Francisco, CA<br/><strong>Designer</strong>, March 2012-August 2013<br/>Dial House is a brand strategy firm with a multi-national client list, that represents recognizable products and innovations."
+      "description" : "Dial House, San Francisco, CA<br/><strong>Designer</strong>, March 2012-August 2013<br/>Dial House was a brand strategy firm with a multi-national client list."
 
     },
 
     "running" : {
       "year" : "2010",
-      "description" : "During the past few years, I have become an avid runner. In 2010, I finished my first half-marathon, the NYC Half."
+      "description" : "Since graduating college, I have become an avid runner. In 2010, I finished my first half-marathon in NYC."
 
     },
 
