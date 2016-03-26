@@ -5,7 +5,7 @@
 
     "ga" : {
       "year" : "2016",
-      "description" : "General Assembly, Part-time </br><strong>User-Experience Course</strong>, January 2016-March 2016"
+      "description" : "General Assembly, </br><strong>User-Experience Design Course</strong>, January 2016-<br>March 2016"
 
     },
 
