@@ -392,6 +392,44 @@ hr {
   padding-bottom: 30px;
 }
 
+#detail-text2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#detail-text2 img {
+  height:350px;
+  width:auto;
+}
+
+
+@media screen and (min-width: 992px) {
+#detail-text2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#detail-text2 img {
+  height:400px;
+  width:auto;
+}
+
+}
+
+@media screen and (min-width: 662px) {
+#detail-text2 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+#detail-text2 img {
+  height:400px;
+  width:auto;
+}
+
+}
+
+
 .template-section-image {
   display: inline-block;
 }
