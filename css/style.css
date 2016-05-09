@@ -34,6 +34,7 @@ body {
 .imagetitle {
   font-family:roboto slab;
   font-weight:700;
+  font-size: 20px;
 
 }
 
@@ -124,7 +125,7 @@ body {
 .text {
   font-weight: 300;
   color: rgba(255,255,255,1);
-  font-size: 20px;
+  font-size: 19px;
 }
 
 /* NAVBAR STYLES */
@@ -231,7 +232,7 @@ a.navbar-brand {
 }
 
 #jumbotron-text {
-  font-size: 1.68em;
+  font-size: 1.6em;
   font-weight: 300;
   color: #6ECFF5;
   padding-top: 20px;
