@@ -373,7 +373,7 @@ hr {
 
 #detail h2 {
   font-size: 21px;
-  font-weight: 800;
+  font-weight: 500;
   color: #BD1D2C;
 }
 
@@ -384,6 +384,9 @@ hr {
   font-family: 'roboto slab', sans-serif;
 }
 
+.client {
+  font-size: 19px;
+}
 #detail {
   padding-bottom: 50px;
 }
