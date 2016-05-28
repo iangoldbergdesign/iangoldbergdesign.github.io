@@ -734,9 +734,9 @@ hr {
   bottom: 0;
   left: 0;
   color: #004E6A;
-  letter-spacing: .85px;
-  font-size: .9375em; /* 15px / 16px */
-  font-weight: 800;
+  letter-spacing: .5px;
+  font-size: .85em; /* 15px / 16px */
+  font-weight: 700;
   padding-left: 100px;
 }
 
