@@ -372,13 +372,13 @@ hr {
 }
 
 #detail h2 {
-  font-size: 21px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
   color: #BD1D2C;
 }
 
 .blue-text {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   color: #004E6A;
   font-family: 'roboto slab', sans-serif;
@@ -392,10 +392,10 @@ hr {
 }
 
 #detail p {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 300;
   color: #004E6A;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 #detail img {
@@ -599,7 +599,7 @@ hr {
   }
 
   #detail p {
-    font-size: 21px;
+    font-size: 20px;
   }
 }
 
