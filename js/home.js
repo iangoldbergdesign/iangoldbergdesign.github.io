@@ -40,6 +40,8 @@
 
         // get the guy image
         this.guyImage = $( '.guy' );
+        
+        
 
         this.order = this._getOrderFromDOM( this.hoverCircles );
 
@@ -48,6 +50,33 @@
 
         // bind event that changes event-wrapper data-event value on hover
         this.hoverCircles.hover( $.proxy( this._onHoverEvent, this ) );
+        
+        // Everything below is for manually setting the "born" event as default
+                
+        // Set defaultKey to "born"
+        var defaultKey = 'born';
+        
+        // Setting defaultColor to the class name 'yellow'
+        var defaultColor = 'yellow';
+        this.wrapper.attr( 'data-color', defaultColor );
+        
+        // Set default guy image to guyImage.yellow
+        this.guyImage.attr('src', guyImages.yellow );
+        
+        // Get the default ring based on the defaultKey above and "select" it
+        this.ring = $('.ring[data-event="' + defaultKey + '"]');
+        this.ring.addClass( 'selected' );
+        
+        // Use the class '.event-text' and defaultKey to render the text area
+        this.text = $('.event-text');
+        this._renderTextBox( this.text, this.events[ defaultKey ] );
+        this._setTextBoxCentering( this.text, this.textBoxWrapper, this.wrapper );
+        
+        // Render the line based on the default ring above
+        this._renderLine( this.eventLine, this.ring.index(), this.circles.length );
+        
+        //Set default guy image based on the defaultColor
+        this._setGuyImage( this.guyImage, defaultColor );
 
       },
 
