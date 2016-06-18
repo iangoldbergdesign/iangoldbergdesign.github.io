@@ -143,6 +143,8 @@ body {
 
 .navbar-brand {
   height:68px;
+  font-family:'roboto slab', sans-serif;
+  letter-spacing: 1px;
 }
 
 img#brand.navbar-brand {
