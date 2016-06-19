@@ -3,6 +3,11 @@ body {
   font-size: 16px;
 }
 
+/* Reset */
+a:hover {
+  text-decoration: none;
+}
+
 .template h2 {
   margin-bottom: 15px;
 }
@@ -668,6 +673,8 @@ hr {
 
 .about .event-line-wrapper {
   position: absolute;
+  pointer-events: none;
+  z-index: 20;
 }
 
 .about .event-line {
@@ -710,17 +717,17 @@ hr {
   color: #F7931D;
 }
 
-.about .circles .red,
+.about .circles li[ data-color="red" ],
 .about .diagram[ data-color="red" ] .event-line {
   background-color: #BE1E2D;
 }
 
-.about .circles .orange,
+.about .circles li[ data-color="orange" ],
 .about .diagram[ data-color="orange" ] .event-line {
   background-color: #F05A28;
 }
 
-.about .circles .yellow,
+.about .circles li[ data-color="yellow" ],
 .about .diagram[ data-color="yellow" ] .event-line {
   background-color: #F7931D;
 }

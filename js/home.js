@@ -4,6 +4,7 @@
   var CircleHoverHandler = (function() {
 
     var dataEvent = 'data-event',
+      dataColor = 'data-color',
       smallestCircleDiameter = 180,
       additionalCircleDiameter = 30;
 
@@ -41,16 +42,15 @@
         // get the guy image
         this.guyImage = $( '.guy' );
         
-        
-
-        this.order = this._getOrderFromDOM( this.hoverCircles );
+        // Set this.order and this.colorMap
+        this._getDataFromDOM( this.hoverCircles );
 
         // render rings depending on the amount of events that exist
         this._renderEvents( this.diagram, this.events );
 
         // bind event that changes event-wrapper data-event value on hover
         this.hoverCircles.hover( $.proxy( this._onHoverEvent, this ) );
-        
+
         // Everything below is for manually setting the "born" event as default
                 
         // Set defaultKey to "born"
@@ -99,6 +99,10 @@
           }
           var circle = this._createCircle( this.circleDiameter, val );
           this._positionCircle( circle, idx, len );
+          
+          // Bind a hover event for the circle once created
+          circle.hover( $.proxy( this._onHoverEvent, this ));
+          
           this.diagram.append( circle );
           this.circleDiameter += additionalCircleDiameter;
 
@@ -129,11 +133,21 @@
         });
       },
 
-      _getOrderFromDOM : function( circles ) {
-        var order = [];
+      _getDataFromDOM : function( circles ) {
+        var order = [],
+          colorMap = {};
+
         circles.each( function() {
+          var key = $( this ).attr( dataEvent ),
+            color = $( this ).attr( dataColor );
+
           order.push( $( this ).attr( dataEvent ) );
+          colorMap[ key ] = color;
         });
+
+
+        this.order = order;
+        this.colorMap = colorMap;
         return order;
       },
 
@@ -143,6 +157,7 @@
           width : diameter + 'px',
           height : diameter + 'px'
         });
+
         this.circles.push( circle );
 
         return circle;
@@ -150,7 +165,9 @@
 
       _positionCircle : function( circle, idx, totalCircles ) {
         var offset = ( ( totalCircles - idx ) * additionalCircleDiameter ) / 2;
+        // Set z-index of the circle as its length - idx
         circle.css({
+          zIndex: totalCircles - idx,
           top: offset + 'px',
           left: offset + 'px'
         });
@@ -159,16 +176,22 @@
 
       _onHoverEvent : function( e ) {
 
-        this._resetRings();
-
         // get data to update the UI
         var hoverEl = $( e.target ),
-          key = hoverEl.attr( 'data-event' ),
-          color = hoverEl[ 0 ].className; // TODO: hack, but w/e
+          key = hoverEl.attr( 'data-event' );
+
+        this._setRingsContent( key );
+      },
+
+      _setRingsContent : function( key ) {
+        this._resetRings();
 
         // get the ring and text box
         var ring = $( '.ring[' + dataEvent + '="' + key  + '"]'),
           textBox = this.textBox;
+
+        // Get the color, as specified in the map 
+        var color = this.colorMap[ key ];
 
         // set the color
         this.wrapper.attr( 'data-color', color );
@@ -225,10 +248,11 @@
 
       _setGuyImage : function( img, color ) {
         if ( color in guyImages ) {
-          img.attr( 'src', guyImages[ color ] );
+          if ( guyImages.hasOwnProperty( color ) ) {
+            img.attr( 'src', guyImages[ color ] );
+          }
         }
       }
-
     }
 
   })();
@@ -238,12 +262,12 @@
     CircleHoverHandler.initialize();
     // make it so the CircleHoverHandler resets when you go
     // below 'Work Examples'
-    var workExamplesTop = $('#work-experiences').offset().top;
-    $( window ).scroll( function() {
-      if ( !CircleHoverHandler.isReset && $( window ).scrollTop() >= workExamplesTop ) {
-        CircleHoverHandler.reset();
-      }
-    });
+    // var workExamplesTop = $('#work-experiences').offset().top;
+    // $( window ).scroll( function() {
+    //   if ( !CircleHoverHandler.isReset && $( window ).scrollTop() >= workExamplesTop ) {
+    //     CircleHoverHandler.reset();
+    //   }
+    // });
   }));
 
 })( window, jQuery );
