@@ -142,7 +142,7 @@ body {
 }
 
 .navbar-brand {
-  height:68px;
+  height:65px;
   font-family:'roboto slab', sans-serif;
   letter-spacing: 1px;
 }
@@ -157,7 +157,7 @@ img#brand.navbar-brand {
 
 a.navbar-brand {
   color: #FFF;
-  font-size: 1.3125em; /* 21 px / 16 px */
+  font-size: 1.2em; /* 21 px / 16 px */
   font-weight: 300;
 }
 
