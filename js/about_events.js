@@ -53,7 +53,7 @@
 
     "columbia" : {
       "year" : "2009",
-      "description" : "Columbia University,<br/>Graduate School <br>of Journalism,<br/>Columbia <br><b>Publishing Course</b>,<br/>June-July 2009 <br/>Six-week intensive course on all <br>aspects of book<br> and magazine"
+      "description" : "Columbia University,<br/>Graduate School <br>of Journalism,<br/><b>Columbia <br>Publishing Course</b>,<br/>June-July 2009 <br/>Six-week intensive course on all <br>aspects of book<br> and magazine"
 
     },
 
