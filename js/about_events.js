@@ -11,7 +11,7 @@
 
     "mig" : {
       "year" : "2013",
-      "description" : "MIG, Berkeley, CA<br/><strong>Graphic Designer</strong>, October 2013-Present<br/>"
+      "description" : "MIG, Berkeley, CA<br/><strong>Designer</strong>, October 2013-Present<br/>"
 
     },
 
@@ -23,7 +23,7 @@
 
     "dial-house" : {
       "year" : "2012",
-      "description" : "Dial House, San Francisco, CA<br/><strong>Designer</strong>, March 2012-August 2013<br/>Dial House was a brand strategy firm with a multi-national client list."
+      "description" : "Dial House, <br>San Francisco, CA<br/><strong>Designer</strong>, March 2012-August 2013"
 
     },
 
