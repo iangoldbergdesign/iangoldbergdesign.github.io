@@ -218,7 +218,7 @@ a.navbar-brand {
 }
 
 #jumbotron-header {
-  font-size: 5.2em;
+  font-size: 5.7em;
   font-weight: 300;
   margin: 0;
   padding-bottom: 20px;
@@ -237,11 +237,12 @@ a.navbar-brand {
 }
 
 #jumbotron-text {
-  font-size: 1.6em;
+  font-size: 1.5em;
   font-weight: 300;
   color: #6ECFF5;
   padding-top: 20px;
   font-family: 'roboto slab', sans-serif;
+  line-height:1.5;
 }
 
 #about {
