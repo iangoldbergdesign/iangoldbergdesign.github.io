@@ -53,8 +53,8 @@
         
         // Everything below is for manually setting the "born" event as default
                 
-        // Set defaultKey to "born"
-        var defaultKey = 'born';
+        // Set defaultKey to "ga"
+        var defaultKey = 'ga';
         
         // Setting defaultColor to the class name 'yellow'
         var defaultColor = 'yellow';
