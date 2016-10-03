@@ -181,6 +181,7 @@ a.navbar-brand {
 
 .navbar-default .navbar-nav>li>a:hover {
   color: #F5911D;
+  text-decoration: underline;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -249,6 +250,16 @@ a.navbar-brand {
   padding-top: 20px;
   font-family: 'roboto slab', sans-serif;
   line-height:1.5;
+}
+
+#jumbotron-text a{
+  color:#FFF; 
+  padding-left:10px;
+}
+
+#jumbotron-text a:hover{
+  color:#F5911D;
+  text-decoration: underline;
 }
 
 #about {
@@ -344,6 +355,7 @@ hr {
 
 #email-address a:hover {
   color: #F5911D;
+  text-decoration: underline;
 }
 
 #email-link {
@@ -357,7 +369,7 @@ hr {
 }
 
 #contact a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 #resume {

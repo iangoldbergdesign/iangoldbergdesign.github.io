@@ -11,7 +11,7 @@
 
     "mig" : {
       "year" : "2013",
-      "description" : "MIG, Berkeley, CA<br/><strong>Designer</strong>, October 2013-Present<br/>"
+      "description" : "MIG, Berkeley, CA<br/><strong>Interaction Designer</strong>, October 2013-Present<br/>"
 
     },
 
